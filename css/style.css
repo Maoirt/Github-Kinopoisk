@@ -1,0 +1,217 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+:root{
+   --orange:#f50;
+   --orangeTitle:rgb(243, 122, 61);
+   --ActiveText: rgb(255, 255, 255);
+   --noActiveText:rgb(203, 203, 203); 
+   --blue:rgb(16, 94, 172);
+}
+.container{
+   font-family: 'Scada', sans-serif;
+   padding:0px 40px ;
+}
+
+body{
+   color: var(--ActiveText);
+   background-color: black;
+}
+
+.menu{
+   align-items: center;
+   display: flex;
+   height: 100%;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.menu__logo .name{
+   font-size: 35px;
+   color: var(--orangeTitle);
+}
+
+.menu__list{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-grow: 1;
+}
+
+.header{
+   height: 72px;
+}
+
+.list_el{ 
+   color: var(--noActiveText);
+   position: relative;
+   line-height: 3;
+   border-bottom: solid 2px rgb(0,0,0,0);
+}
+
+.list_el::before {
+   content: "";
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   bottom: -2px;
+   height: 2px;
+   background-image: linear-gradient(to right, transparent 0%, var(--orange) 50%, transparent 100%);
+   transform: scaleX(0);
+   transition: transform 0.3s ease-in-out;
+}
+
+.list_el:hover::before {
+   transform: scaleX(1);
+
+}
+
+.list_el:hover{
+      color: var(--ActiveText);
+}
+
+.menu__logo{
+   display: flex;
+   height: 100%;
+   align-items: center;
+}
+   
+
+.burger-icon{
+   width: 25px;
+   height: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 5px;
+   margin-right: 20px;
+}
+
+.burger-line{
+   height: 2px;
+   width: 100%;
+   background-color: var(--ActiveText);
+}
+
+.content1{
+   font-family: 'Scada', sans-serif;
+}
+
+.content1__line{
+   font-weight: 700;
+   text-align: center;
+   font-size: 48px;
+}
+
+
+.content1__line.mode{
+   color:var(--blue);
+}
+
+.content1__line.small{
+font-size: 20px;
+}
+
+.content1__line.very-small{
+   font-size: 16px;
+}
+
+.buttonSubscription{
+   margin: auto;
+   height: 60px;
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px ;
+   color: var(--ActiveText);
+   font-size: 24px;
+   background-image: linear-gradient(to right, transparent -50%, var(--orange) 50%, transparent 150%);
+   margin-top: 100px;
+   margin-bottom: 30px;
+}
+
+.buttonSubscription:hover{
+   scale: 1.1;
+   transition: 0.3s;
+}
+
+/* .status{
+   position: relative;
+}
+
+.status-rating{
+   width: 38px;
+   height: 24px;
+   color: greenyellow;
+   text-align: center;
+}
+
+.status-subscription{
+   width: 24px;
+   height: 24px;
+   color: rgb(149, 28, 129);
+   text-align: center;
+}
+
+img{
+   width: 300px;
+   height: 170px;
+} */
+
+.scroll-container{
+   display: flex;
+   overflow-x: scroll;
+   gap: 30;
+
+}
+
+.scroll-element{
+   width: 200px;
+   height: 300px;
+   flex-shrink: 0;
+   margin: 30px;
+}
+
+.scroll-element img{
+   width: 100%;
+}
+
+.scroll-container::-webkit-scrollbar {
+   width: 0;
+ }
+
+ .btn-scroll {
+   user-select: none;
+	font-size: 40px;
+	color: var(--noActiveText);
+}
+
+.btn-scroll:hover {
+	color: var(--activeText);
+}
+
+hr{
+   color: var(--orange);
+   background-color: var(--orange);
+   height: 3px;
+   border: 0;
+}
+
+.scroll-line {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+a{
+   list-style: none;
+   text-decoration: none;
+   color: var(--noActiveText);
+}
+
+a:hover{
+   color: var(--ActiveText);
+}
