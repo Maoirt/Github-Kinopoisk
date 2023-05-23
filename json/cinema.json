@@ -1,0 +1,93 @@
+[
+   {
+      "pathImg": "./image/films/1.jpg",
+      "rating": 7.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Новинки 2023",
+         "Лучшее"
+      ]
+   },
+   {
+      "pathImg": "./image/films/2.jpg",
+      "rating": 9.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Рекомендации"
+      ]
+   },
+   {
+      "pathImg": "./image/films/3.jpg",
+      "rating": 7.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Новинки 2023",
+         "Рекомендации"
+      ]
+   },
+   {
+      "pathImg": "./image/films/4.jpg",
+      "rating": 9.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Лучшее"
+      ]
+   },
+   {
+      "pathImg": "./image/films/5.jpg",
+      "rating": 7.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Рекомендации"
+      ]
+   },
+   {
+      "pathImg": "./image/films/6.jpg",
+      "rating": 9.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Лучшее"
+      ]
+   },
+   {
+      "pathImg": "./image/films/7.jpg",
+      "rating": 7.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Новинки 2023"
+      ]
+   },
+   {
+      "pathImg": "./image/films/8.jpg",
+      "rating": 9.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Новинки 2023",
+         "Лучшее"
+      ]
+   },
+   {
+      "pathImg": "./image/films/9.jpg",
+      "rating": 7.8,
+      "subscription": true,
+      "top10": false,
+      "category": [
+         "Новинки 2023"
+      ]
+   },
+   {
+      "pathImg": "./image/films/5.jpg",
+      "rating": 9.8,
+      "subscription": true,
+      "top10": false,
+      "category": []
+   }
+]
